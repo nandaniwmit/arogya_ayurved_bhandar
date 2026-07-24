@@ -1,0 +1,6 @@
+{
+  "name": "Arogya Ayurved Bhandar",
+  "description": "Your Trusted Medical Store for Genuine Medicines & Healthcare Needs. Pharmacy & Medical Store in Gaya, Bihar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
