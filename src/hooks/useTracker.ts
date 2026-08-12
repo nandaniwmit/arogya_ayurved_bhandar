@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 
 export function useTracker() {
   useEffect(() => {
-    const TRACKING_ENDPOINT = 'https://tools.cprajapati.com/tracker/track.php';
+    const TRACKING_ENDPOINT = 'https://crm.webmakerit.com/tracker/track.php';
     const urlParams = new URLSearchParams(window.location.search);
     
     const cid = urlParams.get('cid') || localStorage.getItem('wmit_active_cid');
