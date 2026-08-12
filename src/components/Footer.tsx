@@ -160,7 +160,7 @@ export default function Footer({ setActiveTab }: FooterProps) {
         {/* Footer Bottom Bar */}
         <div id="footer-bottom" className="mt-8 pt-6 border-t border-slate-800/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400">
           <p id="copyright-text">
-            © {currentYear} <strong>Arogya Ayurved Bhandar</strong>. All rights reserved. Developed by <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>.
+            © {currentYear} <strong>Arogya Ayurved Bhandar</strong>. All rights reserved. <a href="#" className="wmit-popup-trigger hover:text-white underline transition-colors" target="_blank" rel="noopener noreferrer">Developed by WMIT</a>.
           </p>
           <div className="flex space-x-4">
             <button onClick={() => alert("Privacy Policy: We protect all uploaded prescription images. No data is stored or sold.")} className="hover:text-emerald-400 transition-colors">Privacy Policy</button>
